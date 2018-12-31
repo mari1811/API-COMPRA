@@ -1,4 +1,12 @@
 # API-COMPRA
+
+EJECUCION LOCAL:  
+(tener instalado node.js, express, mongoDB) 
+-Abrir la terminal de mongoDB y dejarla abierta 
+-Acceder a la carpeta por otra terminal 
+-Ejecutar el comando "node index.js" 
+-En el navegador "http://localhost:8080/api/contacts" 
+
 POST JSON
 {"message":"",
 "Data":
