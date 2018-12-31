@@ -1,0 +1,25 @@
+# API-COMPRA
+POST JSON
+{"message":"",
+"Data":
+{
+	"_id": ObjectId("5c29905a2b2dad3384e39ae0"),
+	"fecha": ISODate("2018-12-31T03:43:22.999Z"),
+	"cliente": "Antonio",
+	"monto": "1500",
+	"__v": 0
+}
+}
+
+GET JSON
+{"status": "exito", 
+"message": "Compra realizada!", 
+"data":
+{
+	"_id": ObjectId("5c29905a2b2dad3384e39ae0"),
+	"fecha": ISODate("2018-12-31T03:43:22.999Z"),
+	"cliente": "Antonio",
+	"monto": "1500",
+	"__v": 0
+}
+}
